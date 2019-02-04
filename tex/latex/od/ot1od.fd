@@ -1,0 +1,49 @@
+%Filename: ot1od.fd
+%Created by: tex od-drv
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{ot1od.fd}
+   [2019/02/04 Fontinst v1.933 font definitions for OT1/od.]
+
+\DeclareFontFamily{OT1}{od}{}
+
+\DeclareFontShape{OT1}{od}{m}{n}{
+   <-> odr7t
+}{}
+
+\DeclareFontShape{OT1}{od}{m}{sc}{
+   <-> odrc7t
+}{}
+
+\DeclareFontShape{OT1}{od}{m}{sl}{
+   <-> odro7t
+}{}
+
+\DeclareFontShape{OT1}{od}{m}{it}{
+   <-> odri7t
+}{}
+
+\DeclareFontShape{OT1}{od}{b}{n}{
+   <-> odb7t
+}{}
+
+\DeclareFontShape{OT1}{od}{b}{sc}{
+   <-> odbc7t
+}{}
+
+\DeclareFontShape{OT1}{od}{b}{sl}{
+   <-> odbo7t
+}{}
+
+\DeclareFontShape{OT1}{od}{b}{it}{
+   <-> odbi7t
+}{}
+
+\DeclareFontShape{OT1}{od}{bx}{n}{<->ssub * od/b/n}{}
+\DeclareFontShape{OT1}{od}{bx}{sc}{<->ssub * od/b/sc}{}
+\DeclareFontShape{OT1}{od}{bx}{sl}{<->ssub * od/b/sl}{}
+\DeclareFontShape{OT1}{od}{bx}{it}{<->ssub * od/b/it}{}
+
+\endinput

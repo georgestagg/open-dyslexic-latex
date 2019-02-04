@@ -1,0 +1,40 @@
+%Filename: ts1od.fd
+%Created by: tex od-drv
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{ts1od.fd}
+   [2019/02/04 Fontinst v1.933 font definitions for TS1/od.]
+
+\DeclareFontFamily{TS1}{od}{}
+
+\DeclareFontShape{TS1}{od}{m}{n}{
+   <-> odr8c
+}{}
+
+\DeclareFontShape{TS1}{od}{m}{sl}{
+   <-> odro8c
+}{}
+
+\DeclareFontShape{TS1}{od}{m}{it}{
+   <-> odri8c
+}{}
+
+\DeclareFontShape{TS1}{od}{b}{n}{
+   <-> odb8c
+}{}
+
+\DeclareFontShape{TS1}{od}{b}{sl}{
+   <-> odbo8c
+}{}
+
+\DeclareFontShape{TS1}{od}{b}{it}{
+   <-> odbi8c
+}{}
+
+\DeclareFontShape{TS1}{od}{bx}{n}{<->ssub * od/b/n}{}
+\DeclareFontShape{TS1}{od}{bx}{sl}{<->ssub * od/b/sl}{}
+\DeclareFontShape{TS1}{od}{bx}{it}{<->ssub * od/b/it}{}
+
+\endinput

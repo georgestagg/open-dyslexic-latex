@@ -1,0 +1,33 @@
+%Filename: 8rod.fd
+%Created by: tex od-drv
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{8rod.fd}
+   [2019/02/04 Fontinst v1.933 font definitions for 8r/od.]
+
+\DeclareFontFamily{8r}{od}{}
+
+\DeclareFontShape{8r}{od}{m}{it}{
+   <-> odri8r
+}{}
+
+\DeclareFontShape{8r}{od}{b}{n}{
+   <-> odb8r
+}{}
+
+\DeclareFontShape{8r}{od}{b}{sl}{
+   <-> odbo8r
+}{}
+
+\DeclareFontShape{8r}{od}{b}{it}{
+   <-> odbi8r
+}{}
+
+\DeclareFontShape{8r}{od}{m}{sl}{<->ssub * od/m/it}{}
+\DeclareFontShape{8r}{od}{bx}{n}{<->ssub * od/b/n}{}
+\DeclareFontShape{8r}{od}{bx}{sl}{<->ssub * od/b/sl}{}
+\DeclareFontShape{8r}{od}{bx}{it}{<->ssub * od/b/it}{}
+
+\endinput

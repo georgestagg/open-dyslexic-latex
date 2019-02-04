@@ -1,0 +1,13 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{od}[2019/02/04 v1.0 od]
+
+\DeclareOption{default}{\renewcommand{\sfdefault}{od}}
+\ProcessOptions
+\DeclareRobustCommand{\odfamily}{%
+        \fontseries{m}%
+        \fontshape{n}%
+        \fontfamily{od}%
+        \selectfont}
+\DeclareTextFontCommand{\od}{\odfamily}
+\renewcommand{\rmdefault}{od}
+\endinput
